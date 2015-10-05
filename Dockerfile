@@ -1,4 +1,4 @@
-FROM chriswk/java8minimized
+FROM chriswk/java8minimal
 
 ENV TOMCAT_MAJOR_VERSION 8
 ENV TOMCAT_MINOR_VERSION 0
