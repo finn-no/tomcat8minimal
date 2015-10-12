@@ -22,4 +22,4 @@ RUN ln -s /opt/apache-tomcat-${TOMCAT_MAJOR_VERSION}.${TOMCAT_MINOR_VERSION}.${T
 
 EXPOSE 8080
 
-RUN ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"]
