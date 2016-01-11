@@ -16,7 +16,7 @@ RUN ln -s /opt/apache-tomcat-${TOMCAT_MAJOR_VERSION}.${TOMCAT_MINOR_VERSION}.${T
          ${CATALINA_HOME}/webapps/examples \
          ${CATALINA_HOME}/webapps/host-manager \
          ${CATALINA_HOME}/webapps/manager \
-         rm ${CATALINA_HOME}/bin/*.bat
+         ${CATALINA_HOME}/bin/*.bat
 
 WORKDIR $CATALINA_HOME
 
